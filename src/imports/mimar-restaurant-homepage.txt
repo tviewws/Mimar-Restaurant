@@ -1,0 +1,286 @@
+Project: Mimar Restaurant & Caterers Website
+
+Design a sleek, modern, lively business website for:
+
+Business Name: Mimar Restaurant & Caterers
+Location: Ngong Road Professional Center, Nairobi
+Contact: +254 722 836 021
+
+The design should feel:
+
+Warm
+
+African-inspired but modern
+
+Clean and professional
+
+Lively with subtle motion
+
+Affordable but elevated
+
+Avoid corporate stiffness. Avoid luxury fine-dining vibes.
+
+🖥 Create These Frames
+
+Create two main frames:
+
+Desktop – 1440px width
+
+Mobile – 390px width
+
+Use Auto Layout throughout.
+
+🎨 Design System
+Color Palette
+
+Primary: Terracotta #C0562B
+
+Dark Background: #111111
+
+Cream Background: #F4EDE4
+
+Accent Green: #5B6D4C
+
+White: #FFFFFF
+
+Typography
+
+Headings: Playfair Display (serif, elegant)
+Body: Inter (clean sans-serif)
+
+H1 – 64px
+H2 – 40px
+H3 – 28px
+Body – 16px
+Button – 14px SemiBold
+
+Section vertical spacing: 80px desktop / 60px mobile
+Button border-radius: 8px
+Card radius: 16px
+
+🏗 PAGE STRUCTURE (VERY IMPORTANT — NAME FRAMES EXACTLY LIKE THIS)
+
+Inside Desktop – Homepage:
+
+01 – Navbar
+02 – Hero Section
+03 – About Mimar
+04 – Check Out Our Menu (Preview Section)
+05 – Meet The Founder
+06 – Testimonials
+07 – Location & Contact
+08 – Footer
+
+Use this exact naming structure so it can be exported clearly.
+
+SECTION DETAILS
+01 – Navbar
+
+Transparent over hero
+
+Logo on left
+
+Links on right:
+
+Home
+
+About
+
+Menu
+
+Founder
+
+Contact
+
+Primary CTA button:
+“View Menu”
+
+Hover effect:
+Terracotta background glow
+
+Sticky on scroll.
+
+02 – Hero Section
+
+Full height (100vh)
+
+Background:
+Darkened food image with 60% black overlay
+
+Headline:
+“Taste That Brings You Back.”
+
+Subtext:
+Sumptuous African meals at pocket-friendly prices along Ngong Road.
+
+Buttons:
+Primary: View Menu
+Secondary: Call Now
+
+Subtle animated scroll indicator at bottom.
+
+03 – About Mimar
+
+Two-column layout.
+
+Left: Image (clean restaurant or food setup)
+Right: Text
+
+Headline:
+Serving Nairobi with Heart and Consistency
+
+Text tone:
+Confident but humble. Focus on:
+
+Clean environment
+
+Strong work ethic
+
+Reliable service
+
+Loyal repeat customers
+
+Add 4 stat cards:
+⭐ 4.3 Rating
+🍛 African Dishes
+💰 Pocket Friendly
+🧼 Clean & Organized
+
+Cards should have soft shadow and hover lift animation.
+
+04 – Check Out Our Menu (Preview)
+
+Dark background section.
+
+Headline:
+Here’s What We’re Serving
+
+Show 3–6 menu preview cards.
+
+Each card:
+
+Dish image
+
+Dish name
+
+Short description
+
+Starting price
+
+CTA at bottom:
+“Explore Full Menu →”
+
+IMPORTANT:
+This button opens a separate Menu Page, not scroll expansion.
+
+Separate Frame:
+
+Desktop – Menu Page
+
+Layout:
+Elegant grid layout.
+
+Sections:
+Breakfast
+Lunch
+House Specials
+
+Use subtle category dividers.
+Professional and sleek layout.
+Avoid clutter.
+Add subtle hover scaling on menu cards.
+
+05 – Meet The Founder
+
+Professional, classy subsection.
+
+Two-column layout.
+
+Left: Founder photo
+Right: Text
+
+Headline:
+Meet The Founder
+
+Copy tone:
+Subtle praise.
+Highlight:
+
+Discipline
+
+Attention to detail
+
+Dedication to quality
+
+Leadership through service
+
+DO NOT mention founding dates or long history.
+Keep it refined and intelligent.
+
+Add signature-style name under text.
+
+06 – Testimonials
+
+Carousel style.
+
+Use real review-inspired quotes:
+
+“Sumptuous African meals at pocket friendly prices.”
+
+“The best and most organized restaurant along Ngong Road.”
+
+“Great hospitality and delicious food.”
+
+Dark background.
+Soft card glow on hover.
+
+07 – Location & Contact
+
+Light background.
+
+Left:
+Address:
+Ngong Road Professional Center, Nairobi
+
+Phone:
++254 722 836 021
+
+Right:
+Embedded map placeholder block.
+
+Add CTA:
+Get Directions
+
+08 – Footer
+
+Dark background.
+
+Include:
+Logo
+Quick Links
+Contact
+Small line:
+“Built with pride in Nairobi.”
+
+🎞 Micro-Interactions & Motion Notes
+
+Design with animation in mind:
+
+Fade-in on scroll sections
+
+Button hover glow
+
+Card lift on hover
+
+Smooth page transitions
+
+Subtle parallax on hero image
+
+Lively but not distracting.
+
+📱 Mobile Version
+
+Stack all sections vertically.
+Increase button size.
+Sticky bottom “Call Now” button.
+Maintain breathing space.
