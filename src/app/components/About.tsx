@@ -1,7 +1,9 @@
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import eventPhoto from '../../assets/Warmer.png'; //
 
-const ABOUT_IMAGE = 'https://images.unsplash.com/photo-1717913491672-ec2c1921e81f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwY3Vpc2luZSUyMHJlc3RhdXJhbnQlMjBpbnRlcmlvciUyMGNsZWFufGVufDF8fHx8MTc3MjU2NzU4OXww&ixlib=rb-4.1.0&q=80&w=1080';
+// Replaced the Unsplash URL with the imported local file
+const ABOUT_IMAGE = eventPhoto; 
 
 const stats = [
   { icon: '⭐', value: '4.3', label: 'Rating' },
@@ -71,7 +73,7 @@ export function About() {
             }}>
               <ImageWithFallback
                 src={ABOUT_IMAGE}
-                alt="Mimar Restaurant"
+                alt="Mimar Restaurant Event"
                 style={{
                   width: '100%',
                   height: '100%',

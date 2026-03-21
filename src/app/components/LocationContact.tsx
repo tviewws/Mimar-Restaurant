@@ -79,6 +79,7 @@ export function LocationContact() {
                 </div>
               </div>
 
+              {/* Phone */}
               <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start', marginBottom: 20 }}>
                 <div style={{
                   width: 48,
@@ -104,11 +105,12 @@ export function LocationContact() {
                       letterSpacing: '0.02em',
                     }}
                   >
-                    +254 722 836 021
+                    +254 722 836 021 / +254 734 799 850
                   </a>
                 </div>
               </div>
 
+              {/* Hours */}
               <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
                 <div style={{
                   width: 48,
@@ -125,8 +127,8 @@ export function LocationContact() {
                 <div>
                   <div style={{ fontWeight: 600, color: '#111', fontSize: 16, marginBottom: 4 }}>Hours</div>
                   <div style={{ color: '#555', fontSize: 15, lineHeight: 1.8 }}>
-                    Monday – Friday: 7:00 AM – 8:00 PM<br />
-                    Saturday – Sunday: 8:00 AM – 7:00 PM
+                    Monday – Saturday: 8:00 AM – 6:00 PM<br />
+                    Sunday: Closed
                   </div>
                 </div>
               </div>

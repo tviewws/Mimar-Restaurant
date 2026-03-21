@@ -109,7 +109,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contact - Updated with second phone number */}
           <div>
             <h4 style={{
               color: '#fff',
@@ -126,16 +126,26 @@ export function Footer() {
                   Ngong Road Professional Center,<br />Nairobi, Kenya
                 </span>
               </div>
-              <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
-                <Phone size={16} color="#C0562B" style={{ flexShrink: 0 }} />
-                <a
-                  href="tel:+254722836021"
-                  style={{ color: 'rgba(255,255,255,0.5)', fontSize: 14, textDecoration: 'none' }}
-                  onMouseEnter={e => (e.currentTarget.style.color = '#C0562B')}
-                  onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.5)')}
-                >
-                  +254 722 836 021
-                </a>
+              <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+                <Phone size={16} color="#C0562B" style={{ flexShrink: 0, marginTop: 2 }} />
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  <a
+                    href="tel:+254722836021"
+                    style={{ color: 'rgba(255,255,255,0.5)', fontSize: 14, textDecoration: 'none', transition: 'color 0.2s' }}
+                    onMouseEnter={e => (e.currentTarget.style.color = '#C0562B')}
+                    onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.5)')}
+                  >
+                    +254 722 836 021
+                  </a>
+                  <a
+                    href="tel:+254722836021"
+                    style={{ color: 'rgba(255,255,255,0.5)', fontSize: 14, textDecoration: 'none', transition: 'color 0.2s' }}
+                    onMouseEnter={e => (e.currentTarget.style.color = '#C0562B')}
+                    onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.5)')}
+                  >
+                    +254 734 799 850
+                  </a>
+                </div>
               </div>
             </div>
           </div>

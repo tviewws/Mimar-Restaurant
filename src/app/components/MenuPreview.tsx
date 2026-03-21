@@ -1,3 +1,8 @@
+import juicePhoto from '../../assets/Juices.jpeg';
+import tilapiaPhoto from '../../assets/Fish.jpeg';
+import pilauPhoto from '../../assets/Pilau.jpeg';
+import filletPhoto from '../../assets/Fillet.jpeg';
+import chickenPhoto from '../../assets/Chicken.jpeg';
 import { Link } from "react-router";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
@@ -6,53 +11,43 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 const menuItems = [
   {
     id: 1,
-    name: "Nyama Choma Special",
-    description:
-      "Tender flame-grilled meat seasoned with our signature blend of African spices.",
+    name: "Fresh Juice",
+    description: "Pure, ice-cold refreshment made from locally sourced tropical fruits, squeezed daily for a vibrant burst of natural flavor.",
     price: "From KSh 350",
-    image:
-      "https://images.unsplash.com/photo-1702827482556-481adcd68f3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwZm9vZCUyMHBsYXR0ZXIlMjByZXN0YXVyYW50JTIwbWVhbHxlbnwxfHx8fDE3NzI1Njc1OTV8MA&ixlib=rb-4.1.0&q=80&w=800",
+    image: juicePhoto, 
     tag: "House Special",
   },
   {
     id: 2,
-    name: "Grilled Tilapia",
-    description:
-      "Whole Nile tilapia grilled to perfection, served with kachumbari and ugali.",
+    name: "Grilled Tilapia", 
+    description: "Whole Nile tilapia fried to crispy perfection, served with fresh kachumbari and nutritious greens.",
     price: "From KSh 400",
-    image:
-      "https://images.unsplash.com/photo-1612426357506-8b66a851fbe6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmlsbGVkJTIwdGlsYXBpYSUyMGZpc2glMjBBZnJpY2FuJTIwZm9vZHxlbnwxfHx8fDE3NzI1Njc1OTB8MA&ixlib=rb-4.1.0&q=80&w=800",
+    image: tilapiaPhoto,
     tag: "Popular",
   },
   {
-    id: 3,
-    name: "Pilau Rice",
-    description:
-      "Fragrant spiced rice slow-cooked with premium cuts and aromatic East African spices.",
-    price: "From KSh 250",
-    image:
-      "https://images.unsplash.com/photo-1653981608672-aea09b857b20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaWxhdSUyMHJpY2UlMjBLZW55YW4lMjBzcGljZWQlMjBkaXNofGVufDF8fHx8MTc3MjU2NzU5MXww&ixlib=rb-4.1.0&q=80&w=800",
-    tag: "Lunch",
+    id: 3, 
+    name: "Beef Pilau",
+    description: "Fragrant basmati rice cooked in a rich blend of traditional Swahili spices and tender beef, served with fresh kachumbari salad.",
+    price: "From KSh 450", 
+    image: pilauPhoto, 
+    tag: "Chef's Choice",
   },
   {
-    id: 4,
-    name: "Beans & Rice Combo",
-    description:
-      "Hearty stewed beans paired with steamed rice — a wholesome daily staple done right.",
-    price: "From KSh 150",
-    image:
-      "https://images.unsplash.com/photo-1770164678239-89706708a496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyaWNlJTIwYmVhbnMlMjBzdGV3JTIwaGVhcnR5JTIwbWVhbHxlbnwxfHx8fDE3NzI1Njc1OTh8MA&ixlib=rb-4.1.0&q=80&w=800",
-    tag: "Budget Pick",
+    id: 4, 
+    name: "Crispy Fish Fillet",
+    description: "Succulent fish fillet breaded and deep-fried to golden perfection, served with a side of crispy chips and a zesty garden salad.",
+    price: "From KSh 550", 
+    image: filletPhoto,
+    tag: "Lunch Favorite",
   },
   {
-    id: 5,
-    name: "Roasted Chicken",
-    description:
-      "Juicy whole chicken marinated overnight and slow-roasted with herbs and garlic.",
-    price: "From KSh 500",
-    image:
-      "https://images.unsplash.com/photo-1627799370307-9b2a689bb94f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb2FzdGVkJTIwY2hpY2tlbiUyMHdob2xlJTIwbWVhbCUyMHBsYXRlfGVufDF8fHx8MTc3MjU2NzU5OXww&ixlib=rb-4.1.0&q=80&w=800",
-    tag: "Premium",
+    id: 5, 
+    name: "Flame-Grilled Chicken",
+    description: "Tender chicken quarter marinated in our signature herb blend and grilled to perfection, served with a fresh garden salad and your choice of side.",
+    price: "From KSh 500", 
+    image: chickenPhoto,
+    tag: "House Special",
   },
 ];
 

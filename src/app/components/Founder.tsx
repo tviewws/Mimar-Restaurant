@@ -141,10 +141,10 @@ export function Founder() {
                 fontStyle: 'italic',
                 color: '#C0562B',
                 fontWeight: 500,
-                lineHeight: 1,
+                lineHeight: 1.2, // Adjusted for clarity
                 marginBottom: 6,
               }}>
-                The Founder
+                The Founder — Jane Waweru
               </div>
               <div style={{
                 fontSize: 13,
